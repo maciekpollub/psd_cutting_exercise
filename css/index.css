@@ -1,7 +1,7 @@
 
 *{
   box-sizing: border-box;
-  /*border: 1px solid black;*/
+  border: 1px solid black;
   margin: 0;
   padding: 0;
 }
@@ -142,12 +142,13 @@
   list-style: none;
 }
 
-.item-container>a {
+.item-container>a, .right-top-corner>a {
   color: #a29061;
-  font-family: "Novecentosanswide - Book";
+  font-family: "Novecentosanswide-Book";
   font-size: 18px;
   font-weight: 400;
   letter-spacing: 0.05px;
+  text-decoration: none;
 }
 
 .act+a {
@@ -155,10 +156,27 @@
 } 
 
 nav>.col-15 {
-  padding-top: 0;
+  padding-right: 0;
+  margin: 0;
 }
 
 @font-face {
-  font-family: "Novecentosanswide - Book";
-  src: url"./img/Novecentosanswide - Book.otf";
+  font-family: "Novecentosanswide-Book";
+  src: url("../img/Novecentosanswide-Book.otf");
+}
+
+.menu-horizontal-segment {
+  width: 70px;
+  height: 13px;
+  background-color: #af9a63;
+  display: inline-block;
+  margin-left: 8%;
+}
+
+.right-top-corner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:0;
+  padding:0;
 }
