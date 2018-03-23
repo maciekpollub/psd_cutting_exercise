@@ -22,7 +22,7 @@
 }
 
 .col-5 {
-  width: 20.83%;
+  width: 20.84%;
 }
 
 .col-6 {
@@ -121,18 +121,20 @@
 }
 
 .col-2.brand {
-  padding: 20px 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0;
 }
 
 .menu-vertical-segment {
   width: 1px;
   height: 80px;
   background-color: #2d3439;
-  opacity: 11%;
+  opacity: 0.11;
 }
 
 .menu-vertical-segment.act {
-  opacity: 100%;
+  opacity: 1;
 }
 
 .menu-items {
@@ -155,7 +157,7 @@
   color: #4d565d;
 } 
 
-nav>.col-15 {
+.col-15 {
   padding-right: 0;
   padding-top: 0;
 }
@@ -181,6 +183,10 @@ nav>.col-15 {
   padding:0;
 }
 
+.pagination-container {
+  padding-top: 5%;
+ }
+
 .pagination-no {
   height: 17px;
   color: #af9a63;
@@ -191,7 +197,7 @@ nav>.col-15 {
   text-transform: uppercase;
   letter-spacing: 0.9px;
   margin-bottom: 3%;
-  margin-top: 6%;
+  margin-top: 10%;
   opacity: 0.5;
 }
 
@@ -207,5 +213,38 @@ nav>.col-15 {
 
 .face-front {
   display: block;
-  margin: auto;
+  /*margin: auto;*/
 }
+
+.main-heading {
+  width: 100%;
+  color: #455560;
+  font-family: "Novecentosanswide-Book";
+  font-size: 4.5em;
+  font-weight: 300;
+}
+
+.section-header-first-row, .section-header-second-row {
+  display: flex;
+  align-items: top;
+  height: 100%;
+
+}
+
+.section-header-first-row {
+  padding-top: 5%;
+}
+
+.section-header-second-row {
+  margin-top: -41%;
+}
+
+.main-heading-container {
+  display: flex;
+  align-items: center;
+}
+
+.face-left {
+  padding-top: 10%;
+}
+
