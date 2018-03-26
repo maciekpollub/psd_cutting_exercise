@@ -213,14 +213,14 @@
 
 .face-front {
   display: block;
-  /*margin: auto;*/
+  margin: auto;
 }
 
 .main-heading {
   width: 100%;
   color: #455560;
   font-family: "Novecentosanswide-Book";
-  font-size: 4.5em;
+  font-size: 4.6em;
   font-weight: 300;
 }
 
@@ -244,7 +244,30 @@
   align-items: center;
 }
 
+.pale-diagonal {
+  margin-left: 8%;
+}
+
 .face-left {
   padding-top: 10%;
+  opacity: 0.9;
+}
+
+
+.submain-heading {
+  color: #a29061;
+  font-family: "Novecentosanswide-Book";
+  font-size: 3.5em;
+  font-weight: 300;
+  line-height: 66px;
+}
+
+.banner {
+  margin-top: -20%;
+  margin-left: -9%;
+}
+
+.section-header-third-row {
+  margin-top: -7%;
 }
 
