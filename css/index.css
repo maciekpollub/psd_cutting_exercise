@@ -244,8 +244,9 @@
   align-items: center;
 }
 
-.pale-diagonal {
+.pale-diagonal-top {
   margin-left: 8%;
+  opacity: 30%;
 }
 
 .face-left {
@@ -271,3 +272,29 @@
   margin-top: -7%;
 }
 
+.particles {
+  margin-left: -15%;
+}
+
+.face-right {
+  margin-left: -8%;
+  margin-top: -20%;
+  opacity: 0.9;
+}
+
+.pale-diagonal-left {
+  opacity: 30%;
+  margin-left: -76%;
+  margin-top: -12%;
+}
+
+.pale-diagonal-right {
+  opacity: 30%;
+  margin-top: -46%;
+  margin-left: -9%;
+}
+
+.section-header-fourth-row {
+  position: relative;
+  top: -225px;
+}
